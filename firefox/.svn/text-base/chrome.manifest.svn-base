@@ -1,0 +1,6 @@
+content threebeats jar:chrome/threebeats.jar!/content/
+content threebeats jar:chrome/threebeats.jar!/content/ contentaccessible=yes
+
+overlay chrome://browser/content/browser.xul chrome://threebeats/content/threebeats.xul
+
+skin threebeats classic/1.0 jar:chrome/threebeats.jar!/skin/

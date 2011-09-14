@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Facebook jQuery Login Example</title>
+  </head>
+  <body>
+    <h1>Facebook jQuery Login Example</h1>
+    <div>
+    
+      <!--
+      Buttons "login" and "logout". I have added them because I don't know what we will use buttons or popup window.
+      One more thing - firefox will block popup for the first time. And if we use buttons everything will be ok 
+       -->
+      <button id="login" style="display:none;">Login</button>
+      <button id="logout" style="display:none;">Logout</button>
+
+    </div>
+    <div id="user-info" style="display: none;"></div>
+
+    	<script src="jquery-latest.min.js"></script>
+
+    <div id="fb-root"></div>
+    	<script src="http://connect.facebook.net/en_US/all.js"></script>
+    	<script src="fblogin.js"></script>
+  </body>
+</html>

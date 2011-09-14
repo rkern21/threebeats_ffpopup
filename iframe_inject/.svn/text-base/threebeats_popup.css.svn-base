@@ -1,0 +1,15 @@
+.threebeats_popup {
+    z-index: 9999999;
+    position: absolute;
+    width: 344px;
+    height: 265px;
+}
+#trbeats_iframe{
+	
+}
+
+#threeBeatsExtPopup{
+	width: 344px;
+    height: 265px;
+    background-repeat: no-repeat;
+}

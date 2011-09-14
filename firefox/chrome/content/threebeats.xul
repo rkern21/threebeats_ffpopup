@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://threebeats/skin/threebeats.css" type="text/css"?>
+ 
+<overlay id="BUY_CM-Overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script type="application/x-javascript" src="chrome://threebeats/content/injector.js"/>
+    <script type="application/x-javascript" src="chrome://threebeats/content/whitelist.js"/>
+    <script type="application/x-javascript" src="chrome://threebeats/content/highlighter.js"/>
+    <script type="application/x-javascript" src="chrome://threebeats/content/utils.js"/>
+    <script type="application/x-javascript" src="chrome://threebeats/content/update.js"/>
+    <script type="application/x-javascript" src="chrome://threebeats/content/threebeats.js"/>
+
+    <script type="application/x-javascript" src="chrome://threebeats/content/jQueryAPI.js"/>
+</overlay>

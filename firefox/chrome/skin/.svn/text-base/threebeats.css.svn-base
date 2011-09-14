@@ -1,0 +1,5 @@
+#BUY_CM-Seach {
+    list-style-image: url("chrome://threebeats/skin/buy_16.png");
+    -moz-binding: url("chrome://global/content/bindings/menu.xml#menuitem-iconic");
+    -moz-image-region: rect(0px 16px 16px 0px); 
+}

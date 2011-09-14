@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/ffaddon/!svn/ver/53/branches/firefox_demo/chrome/content
+END
+threebeats.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/ffaddon/!svn/ver/33/branches/firefox_demo/chrome/content/threebeats.js
+END
+jQueryAPI.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ffaddon/!svn/ver/15/branches/firefox_demo/chrome/content/jQueryAPI.js
+END
+whitelist.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ffaddon/!svn/ver/33/branches/firefox_demo/chrome/content/whitelist.js
+END
+injector.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ffaddon/!svn/ver/15/branches/firefox_demo/chrome/content/injector.js
+END
+highlighter.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/ffaddon/!svn/ver/53/branches/firefox_demo/chrome/content/highlighter.js
+END
+utils.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ffaddon/!svn/ver/53/branches/firefox_demo/chrome/content/utils.js
+END
+jquery-1.4.2.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ffaddon/!svn/ver/15/branches/firefox_demo/chrome/content/jquery-1.4.2.min.js
+END
+threebeats.xul
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/ffaddon/!svn/ver/15/branches/firefox_demo/chrome/content/threebeats.xul
+END
+update.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ffaddon/!svn/ver/53/branches/firefox_demo/chrome/content/update.js
+END
