@@ -407,7 +407,7 @@
         var strJsonCallBack = "?";
 
 
-        var strGetURL = "http://api.dev.3beats.com/json/get";
+        var strGetURL = "http://api.3beats.com/json/get";
         strGetURL += "?uid=" + strUID;
         strGetURL += "&source=st"
         strGetURL += "&ip=" + userIP;
@@ -437,7 +437,7 @@
      * Submits form for article that does not exist
      */
     function submitpostnewarticle(comment, sUID, sCID, sURL, sTitle, sMeta) {
-        var strPostURL = "http://api.dev.3beats.com/json/post";
+        var strPostURL = "http://api.3beats.com/json/post";
         strPostURL += "?vote=" + vote;
 		strPostURL += "&uid=" + sUID;
 		strPostURL += "&ip=" + userIP;
@@ -456,7 +456,7 @@
      */
 
     function submitpostoldarticle(comment, sUID, sCID, sAID) {
-        strPostURL = "http://api.dev.3beats.com/json/post";
+        strPostURL = "http://api.3beats.com/json/post";
         strPostURL += "?vote=" + vote; 
 		strPostURL += "&uid=" + sUID;
 		strPostURL += "&ip=" + userIP;
