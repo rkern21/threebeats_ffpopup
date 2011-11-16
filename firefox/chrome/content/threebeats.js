@@ -55,6 +55,10 @@ com.threebeats.main = {
 
     pageLoaded : function(doc) {
         with (com.threebeats) {
+            if (!doc.location) {
+                return;
+            }
+            
             var url = doc.location.toString();
 
             Log.log("doc.location.toString(): " + doc.location.toString());

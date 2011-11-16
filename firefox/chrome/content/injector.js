@@ -78,17 +78,15 @@ com.threebeats.Injector = {
     _injectJQueryScripts : function(doc) {
         with (com.threebeats) {
             var heads = doc.getElementsByTagName("head");
-            Log.log("heads.length: " + heads.length);
             if (heads.length == 0) {
                 return;
             }
 
             var head = heads[0];
-            Log.log("head: " + head);
             for (var i = 0; i < Injector.jQueryScripts.length; i++) {
                 var element = doc.createElement("script");
                 element.setAttribute("type", "application/x-javascript");
-                element.setAttribute("src", "chrome://threebeats/content/inject/" + Injector.jQueryScripts[i]);
+                element.innerHTML = Injector._loadJS("chrome://threebeats/content/inject/" + Injector.jQueryScripts[i]);
 
                 head.appendChild(element);
             }
@@ -127,8 +125,6 @@ com.threebeats.Injector = {
     },
 
     _loadPopupHTML : function() {
-//        var result = com.threebeats.IO.getUrlContents("http://www.3beats.com/popup/popup.html");
-
         var result = com.threebeats.IO.getUrlContents("chrome://threebeats/content/inject/popup.html");
 
         return  result.

@@ -71,11 +71,15 @@ com.threebeats.Highlighter._highlightImpl = function(doc, rule) {
         linkNode.appendChild(middleclone);
         middlebit.parentNode.replaceChild(linkNode, middlebit);
 
-        com.threebeats.JQuery.evalJQuery(doc,
-                function() {
-                    $('<img src="chrome://threebeats/skin/3beats-star-16x16.png" border="0"/>').
-                            insertAfter($(linkNode));
-                }, {linkNode : linkNode});
+        var img = doc.createElement("img");
+        img.setAttribute("src", "chrome://threebeats/skin/3beats-star-16x16.png");
+        img.setAttribute("border", "0");
+
+        if (linkNode.nextSibling) {
+            linkNode.parentNode.insertBefore(img, linkNode.nextSibling);
+        } else {
+            linkNode.parentNode.appendChild(img);
+        }
 
         highlightedNames.push(starName);
     }
